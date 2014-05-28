@@ -1,17 +1,18 @@
 /*
-Syntax error: File to import not found or unreadable: custom/before.
+Syntax error: File to import not found or unreadable: foundation.
               Load paths:
                 Sass::Globbing::Importer
                 /Users/anubis/dev/kienbd.github.io/sass
                 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets
                 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets
+                /Users/anubis/dev/kienbd.github.io/bower_components/foundation/scss
                 Compass::SpriteImporter
-        on line 5 of /Users/anubis/dev/kienbd.github.io/sass/screen.scss
+        on line 3 of /Users/anubis/dev/kienbd.github.io/sass/screen.scss
 
 1: /Users/anubis/dev/kienbd.github.io/sass/screen.scss
 
 Backtrace:
-/Users/anubis/dev/kienbd.github.io/sass/screen.scss:5
+/Users/anubis/dev/kienbd.github.io/sass/screen.scss:3
 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/import_node.rb:45:in `import'
 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -58,4 +59,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: custom/before.\A               Load paths:\A                 Sass::Globbing::Importer\A                 /Users/anubis/dev/kienbd.github.io/sass\A                 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 5 of /Users/anubis/dev/kienbd.github.io/sass/screen.scss\A \A 1: /Users/anubis/dev/kienbd.github.io/sass/screen.scss"; }
+  content: "Syntax error: File to import not found or unreadable: foundation.\A               Load paths:\A                 Sass::Globbing::Importer\A                 /Users/anubis/dev/kienbd.github.io/sass\A                 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/anubis/dev/kienbd.github.io/bower_components/foundation/scss\A                 Compass::SpriteImporter\A         on line 3 of /Users/anubis/dev/kienbd.github.io/sass/screen.scss\A \A 1: /Users/anubis/dev/kienbd.github.io/sass/screen.scss"; }

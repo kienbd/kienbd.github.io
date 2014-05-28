@@ -2,26 +2,46 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://kienbd.github.io/archives/</loc>
-        <lastmod>2014-05-28T12:05:25+07:00</lastmod>
+        <lastmod>2014-05-28T12:13:11+07:00</lastmod>
     </url>
     <url>
         <loc>http://kienbd.github.io/blog/archives/</loc>
-        <lastmod>2014-05-28T12:05:25+07:00</lastmod>
+        <lastmod>2014-05-28T12:13:11+07:00</lastmod>
     </url>
     <url>
         <loc>http://kienbd.github.io/blog/</loc>
-        <lastmod>2014-05-28T12:05:25+07:00</lastmod>
+        <lastmod>2014-05-28T12:13:11+07:00</lastmod>
     </url>
     <url>
         <loc>http://kienbd.github.io/</loc>
-        <lastmod>2014-05-28T12:05:25+07:00</lastmod>
+        <lastmod>2014-05-28T12:13:11+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://kienbd.github.io/</loc>
+        <lastmod>2014-05-28T12:13:11+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://kienbd.github.io/no-sidebar/example-formatting/</loc>
+        <lastmod>2014-05-28T12:13:11+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://kienbd.github.io/no-sidebar/</loc>
+        <lastmod>2014-05-28T12:13:11+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://kienbd.github.io/no-sidebar/left-sidebar/</loc>
+        <lastmod>2014-05-28T12:13:11+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://kienbd.github.io/no-sidebar/right-sidebar/</loc>
+        <lastmod>2014-05-28T12:13:11+07:00</lastmod>
     </url>
     <url>
         <loc>http://kienbd.github.io/posts/</loc>
-        <lastmod>2014-05-28T12:05:25+07:00</lastmod>
+        <lastmod>2014-05-28T12:13:11+07:00</lastmod>
     </url>
     <url>
         <loc>http://kienbd.github.io/robots.txt</loc>
-        <lastmod>2014-05-28T12:05:25+07:00</lastmod>
+        <lastmod>2014-05-28T12:13:11+07:00</lastmod>
     </url>
 </urlset>
