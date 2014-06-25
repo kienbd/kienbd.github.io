@@ -1,36 +1,23 @@
 /*
-Syntax error: Undefined mixin 'shadow-box'.
-        on line 28 of /Users/anubis/dev/kienbd.github.io/sass/plugins/_flickr.scss, in `shadow-box'
-        from line 28 of /Users/anubis/dev/kienbd.github.io/sass/plugins/_flickr.scss
-        from line 3 of /Users/anubis/dev/kienbd.github.io/sass/plugins/**\/*
-        from line 10 of /Users/anubis/dev/kienbd.github.io/sass/screen.scss
+Syntax error: File to import not found or unreadable: foundation.
+              Load paths:
+                /Users/anubis/dev/kienbd.github.io/sass
+                /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/blueprint/stylesheets
+                /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets
+                /Users/anubis/dev/kienbd.github.io/bower_components/foundation/scss
+                Compass::SpriteImporter
+                Sass::Globbing::Importer
+        on line 3 of /Users/anubis/dev/kienbd.github.io/sass/screen.scss
+
+1: /Users/anubis/dev/kienbd.github.io/sass/screen.scss
 
 Backtrace:
-/Users/anubis/dev/kienbd.github.io/sass/plugins/_flickr.scss:28:in `shadow-box'
-/Users/anubis/dev/kienbd.github.io/sass/plugins/_flickr.scss:28
-/Users/anubis/dev/kienbd.github.io/sass/plugins/**\/*:3
-/Users/anubis/dev/kienbd.github.io/sass/screen.scss:10
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `map'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `map'
-/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
+/Users/anubis/dev/kienbd.github.io/sass/screen.scss:3
+/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:45:in `import'
+/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -72,4 +59,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'shadow-box'.\A         on line 28 of /Users/anubis/dev/kienbd.github.io/sass/plugins/_flickr.scss, in `shadow-box'\A         from line 28 of /Users/anubis/dev/kienbd.github.io/sass/plugins/_flickr.scss\A         from line 3 of /Users/anubis/dev/kienbd.github.io/sass/plugins/**/*\A         from line 10 of /Users/anubis/dev/kienbd.github.io/sass/screen.scss"; }
+  content: "Syntax error: File to import not found or unreadable: foundation.\A               Load paths:\A                 /Users/anubis/dev/kienbd.github.io/sass\A                 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/blueprint/stylesheets\A                 /Users/anubis/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets\A                 /Users/anubis/dev/kienbd.github.io/bower_components/foundation/scss\A                 Compass::SpriteImporter\A                 Sass::Globbing::Importer\A         on line 3 of /Users/anubis/dev/kienbd.github.io/sass/screen.scss\A \A 1: /Users/anubis/dev/kienbd.github.io/sass/screen.scss"; }
