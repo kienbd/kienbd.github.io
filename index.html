@@ -73,27 +73,12 @@ $(document).ready(
 <nav id="mobile-nav">
 	<div class="alignleft menu">
 		<a class="button">Menu</a>
-		<div class="container"><ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
 </ul>
-
-<br>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:kienbd.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<!--
-<ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
--->
-
 </div>
 	</div>
 	<div class="alignright search">
@@ -107,12 +92,6 @@ $(document).ready(
 	</div>
 </nav>
 
-<hgroup>
-  <h1><a href="/">Kien Bui</a></h1>
-  
-    <h2>Web Developer, Web Designer.</h2>
-  
-</hgroup>
 
 </header>
 
@@ -126,29 +105,21 @@ $(document).ready(
 
 
 </div>
-	<footer id="footer" class="inner"><p>
-  Website copyright &copy; 2014 - Kien Bui |
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/TheChymera/Koenigspress">Königspress</a></span>.
-</p>
+	<footer id="footer" class="inner">Copyright &copy; 2014
 
+    Kien Bui
+
+<br>
+Powered by Octopress.
 </footer>
-	
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
 
 
 
