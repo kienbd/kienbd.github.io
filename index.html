@@ -73,10 +73,12 @@ $(document).ready(
 <nav id="mobile-nav">
 	<div class="alignleft menu">
 		<a class="button">Menu</a>
-		<div class="container"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
+		<div class="container"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
 </ul>
+
+<br>
   
 <form action="https://www.google.com/search" method="get">
   <fieldset role="search">
@@ -85,10 +87,12 @@ $(document).ready(
   </fieldset>
 </form>
   
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+<!--
+<ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
 </ul>
+-->
 
 </div>
 	</div>
@@ -104,17 +108,10 @@ $(document).ready(
 </nav>
 
 <hgroup>
-  <div id="logo">
-  	<div id="logoLeft">{</div>
-  	<div id="logoText">sihugh</div>
-  	<div id="logoRight">}</div>
-  	<div class="clear"></div>
-  </div>
   <h1><a href="/">Kien Bui</a></h1>
   
     <h2>Web Developer, Web Designer.</h2>
   
-  <div class="clear"></div>
 </hgroup>
 
 </header>
@@ -130,8 +127,8 @@ $(document).ready(
 
 </div>
 	<footer id="footer" class="inner"><p>
-  Copyright &copy; 2014 - Kien Bui -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  Website copyright &copy; 2014 - Kien Bui |
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/TheChymera/Koenigspress">Königspress</a></span>.
 </p>
 
 </footer>
@@ -148,7 +145,7 @@ $(document).ready(
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>
