@@ -73,62 +73,24 @@ $(document).ready(
 <nav id="mobile-nav">
 	<div class="alignleft menu">
 		<a class="button">Menu</a>
-		<div class="container"><div id="main-nav">
-    <nav>
-        <ul>
-        	<li>
-        		
-					<h3>Recent Posts</h3>
-<ul>
-	
+		<div class="container"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:kienbd.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
 </ul>
 
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/kienbd">@kienbd</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'kienbd',
-            count: 10,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-
-				
-        	</li>
-        	<li>
-        		<ul>
-                    <li>Projects - <a href="http://www.alexharr.is" target="_blank">alexharr.is</a>
-        			<li>Github - <a href="http://www.github.com/alexharris" target="_blank">github.com/alexharris</a></li>
-                    <li>Twitter - <a href="http://www.twitter.com/alexharris6" target="_blank">@alexharris6</a></li>
-                    <li>Email - <a href="mailto:alexharris6@gmail.com" target="_blank">alexharris6 at gmail</a></li>
-        		</ul>
-        	</li>
-        </ul>
-    </nav>
-</div></div>
+</div>
 	</div>
 	<div class="alignright search">
 		<a class="button"></a>
@@ -141,14 +103,20 @@ $(document).ready(
 	</div>
 </nav>
 
-<div class="aux-container">
-    <a id="nav-toggle" href="#sidr"></a>
-    <a id="search-toggle"></a>
-</div>
+<hgroup>
+  <div id="logo">
+  	<div id="logoLeft">{</div>
+  	<div id="logoText">sihugh</div>
+  	<div id="logoRight">}</div>
+  	<div class="clear"></div>
+  </div>
+  <h1><a href="/">Kien Bui</a></h1>
+  
+    <h2>Web Developer, Web Designer.</h2>
+  
+  <div class="clear"></div>
+</hgroup>
 
-<header class="header-container clearfix">
-        <a href="/"><img src="/images/ah-frame.svg" onerror="this.onerror=null; this.src='ah-frame.png'"></a>
-</header>
 </header>
 
 	<div id="content" class="inner"><article class="page">
@@ -161,15 +129,13 @@ $(document).ready(
 
 
 </div>
-	<footer id="footer" class="inner"><footer class="main-footer">
-	<section class="interior-footer">
-		<span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-	</section>
-</footer>
+	<footer id="footer" class="inner"><p>
+  Copyright &copy; 2014 - Kien Bui -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
 
 </footer>
 	
-
 
 
 
@@ -182,10 +148,11 @@ $(document).ready(
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>
+
 
 
 
