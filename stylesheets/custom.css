@@ -105,21 +105,50 @@ button.call-on-action-btn {
 		font-size: 18px;
 	}
 	#contact-info .social img {
-		width: 30px;
+		width: 40px;
 	}
 
 }
 
 @media screen and (max-width: 500px) {
 	#contact-info h1 {
-		font-size: 20px;
+		font-size: 22px;
 	}
 	#contact-info h4 {
 		font-size: 14px;
 	}
 	#contact-info .social img {
-		width: 40px;
+		width: 30px;
 	}
 
 }
 
+
+@media screen and (max-width: 320px) {
+	#contact-info .qrcode {
+		display: block;
+		margin: 0 auto;
+	}
+	#contact-info .per-info {
+		display:block;
+		margin: 0 auto;
+	}
+
+	#contact-info .info {
+		text-align: center;
+	}
+	#contact-info ul.social {
+		text-align: center;
+	}
+
+	#contact-info h1 {
+		font-size: 22px;
+	}
+	#contact-info h4 {
+		font-size: 14px;
+	}
+	#contact-info .social img {
+		width: 30px;
+	}
+
+}
