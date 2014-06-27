@@ -97,6 +97,9 @@ button.call-on-action-btn {
 	opacity: 1;
 }
 
+
+
+/* RESPONSIVE */
 @media screen and (max-width: 600px) {
 	#contact-info h1 {
 		font-size: 26px;
@@ -130,6 +133,7 @@ button.call-on-action-btn {
 		margin: 0 auto;
 	}
 	#contact-info .per-info {
+		width: 90%;
 		display:block;
 		margin: 0 auto;
 	}
@@ -148,7 +152,7 @@ button.call-on-action-btn {
 		font-size: 14px;
 	}
 	#contact-info .social img {
-		width: 30px;
+		width: 40px;
 	}
 
 }
