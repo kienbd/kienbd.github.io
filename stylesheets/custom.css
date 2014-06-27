@@ -120,3 +120,15 @@ button.call-on-action-btn {
 	}
 
 }
+
+@media screen and (max-width: 400px) {
+	#contact-info h1 {
+		font-size: 20px;
+	}
+	#contact-info h4 {
+		font-size: 12px;
+	}
+	#contact-info .social img {
+		width: 20px;
+	}
+}
