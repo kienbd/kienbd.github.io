@@ -29,9 +29,26 @@
 }
 
 #call-on-action {
-  padding: 60px 70px 50px 70px;
-  text-align: center;
-  background: #ffffff;
+	font: 62.5% Arial, Helvetica, sans-serif normal;
+  padding: 20px 60px 30px 00px;
+}
+#call-on-action h3 {
+	color: #565752;
+	font-family: "museo-1","museo-2", Georgia, Times, serif;
+	font-size: 1.6em;
+	font-weight: 300;
+	margin-top: 10px;
+	padding: 0 0 10px 0;
+}
+
+#call-on-action p {
+	color: #3f413e;
+	display: inline;
+	font-family: "museo-1","museo-2", Georgia, Times, serif;
+	font-size: 3em;
+	font-weight: 300;
+	line-height: 1.4em;
+	padding: 1px;
 }
 button.call-on-action-btn {
 
@@ -61,6 +78,9 @@ button.call-on-action-btn {
 
 }
 #contact-info a {
+	border: none !important;
+	text-decoration: none !important;
+	color: #ffffff !important;
 }
 #contact-info h1 {
   margin-top: 15px;
@@ -89,7 +109,7 @@ button.call-on-action-btn {
 }
 #contact-info .social img {
 	box-shadow: 0px 0px 0px;
-	width: 40px;
+	width: 50px;
 	opacity: 0.5;
 }
 
