@@ -23,6 +23,11 @@
 #header {
 
 }
+
+.clearfix {
+  clear: both;
+  display: block;
+}
 #main-nav.custom-home-nav {
   margin-top: 0px;
   text-align: right;
@@ -50,7 +55,36 @@
 	line-height: 1.4em;
 	padding: 1px;
 }
-button.call-on-action-btn {
+
+.elsewhere {
+  color: #565752;
+  font-family: "museo-1","museo-2", Georgia, Times, serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  margin-top: 40px;
+  padding: 0 0 10px 0;
+}
+
+#call-on-action .button {
+	position: relative;
+	display: inline-block;
+	zoom: 1;
+	padding: 1em 3.4em .81em 1em;
+	cursor: pointer;
+	background: #2098d1;
+	border: none;
+	color: white;
+	-webkit-transition: background-color 0.3s;
+	-moz-transition: background-color 0.3s;
+	-ms-transition: background-color 0.3s;
+	-o-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+	color: white !important;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 120%;
+	font-family: "jaf-bernino-sans-narrow-1","jaf-bernino-sans-narrow-2","Calibri",Arial,sans-serif;
 
 }
 #contact-info a {
@@ -93,7 +127,7 @@ button.call-on-action-btn {
   margin-top: 10px;
   margin-bottom: 0px;
   font-weight: 100;
-  font-size: 24px;
+  font-size: 22px;
 	font-size: 2.0vw;
 }
 #contact-info ul.social {
