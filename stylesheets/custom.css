@@ -98,11 +98,16 @@
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 120%;
-  webkit-transition: border .25s linear;
-  -moz-transition: border .25s linear;
-  -ms-transition: border .25s linear;
-  transition: border .25s linear;
+  webkit-transition: background .25s linear;
+  -moz-transition: background .25s linear;
+  -ms-transition: background .25s linear;
+  transition: background .25s linear;
 }
+
+#call-on-action .button:hover {
+  background: #FAFAF0;
+}
+
 
 #contact-info a {
   border-bottom: 0px;
