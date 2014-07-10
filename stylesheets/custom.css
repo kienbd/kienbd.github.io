@@ -17,7 +17,26 @@
   transform: rotate(-5deg);
 }
 .personal-pic img {
-  height: 200px;
+	box-shadow: 0px 0px 0px !important;
+  width: 200px;
+}
+blockquote {
+  background: #fafaf6 !important;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
 #header {
@@ -175,86 +194,6 @@
 }
 
 
-#porfolio-index ul.three-list {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-	list-style: none;
-}
-
-
-.three-list >* {
-  display: inline-block;
-  zoom: 1;
-  vertical-align: top;
-	width: 100%;
-}
-
-#porfolio-index ul.three-list li {
-  position: relative;
-  word-break: break-word;
-  margin-bottom: 40px;
-}
-
-#porfolio-index ul.three-list li a{
-	border-bottom: 0px;
-  display: block;
-  height: 270px;
-  margin-bottom: 4px;
-  background: #eee;
-  text-align: center;
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-}
-
-#porfolio-index ul.three-list li a:hover {
-	border-bottom: 0px;
-}
-
-#porfolio-index ul.three-list li a:before {
-	content: "";
-	display: inline-block;
-	zoom: 1;
-	height: 100%;
-	vertical-align: middle;
-}
-
-#porfolio-index ul.three-list li a img {
-	display: inline-block;
-	vertical-align: middle;
-	max-width: 85%;
-	max-height: 99%;
-	box-shadow: 0px 0px 0px;
-	-webkit-transition: .5s -webkit-transform;
-	-moz-transition: .5s -moz-transform;
-	-ms-transition: .5s -ms-transform;
-	-o-transition: .5s -o-transform;
-	transition: .5s transform;
-}
-
-#porfolio-index ul.three-list li:hover img{
-	-webkit-transform: scale(0.95);
-	-moz-transform: scale(0.95);
-	-ms-transform: scale(0.95);
-	-o-transform: scale(0.95);
-	transform: scale(0.95);
-}
-
-#porfolio-index ul.three-list li h3 {
-	margin-top: 5px;
-	font-size: 16px;
-	font-weight: 100;
-	font-family: "Lato",sans-serif;
-	margin-bottom: 0px;
-}
-
-
 /* RESPONSIVE */
 @media screen and (max-width: 600px) {
 	#contact-info h1 {
@@ -319,33 +258,5 @@
 	#contact-info .social img {
 		width: 40px;
 	}
-}
-
-@media screen and (min-width: 581px) {
-  .three-list>* {
-      width: 49%;
-  }
-  .three-list>*:nth-child(2n+1) {
-    margin-right: 1%;
-  }
-  .three-list>*:nth-child(2n+2) {
-    margin-right: 1%;
-  }
-}
-
-@media screen and (min-width: 1040px) {
-  .three-list>* {
-      width: 32%;
-  }
-
-	.three-list> *:nth-child(2n+1), .three-list>*:nth-child(2n+2) {
-    margin-left: 0;
-    margin-right: 0;
-  }
-	.three-list>*:nth-child(3n+2) {
-		margin-left: 2%;
-		margin-right: 2%;
-	}
-
 }
 
