@@ -84,28 +84,6 @@ blockquote p {
   padding: 0 0 10px 0;
 }
 
-#call-on-action .buttonz {
-	position: relative;
-	display: inline-block;
-	zoom: 1;
-	padding: 1em 3.4em .81em 1em;
-	cursor: pointer;
-	background: #2098d1;
-	border: none;
-	color: white;
-	-webkit-transition: background-color 0.3s;
-	-moz-transition: background-color 0.3s;
-	-ms-transition: background-color 0.3s;
-	-o-transition: background-color 0.3s;
-	transition: background-color 0.3s;
-	color: white !important;
-	text-transform: uppercase;
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 120%;
-	font-family: "jaf-bernino-sans-narrow-1","jaf-bernino-sans-narrow-2","calibri",arial,sans-serif;
-}
-
 #call-on-action .button {
   position: relative;
   display: inline-block;
@@ -139,7 +117,6 @@ blockquote p {
 #call-on-action .button:hover {
   background: #FAFAF0;
 }
-
 
 #contact-info a {
   border-bottom: 0px;

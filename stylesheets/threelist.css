@@ -56,12 +56,12 @@ ul.three-list li a img {
 	vertical-align: middle;
 	max-width: 85%;
 	max-height: 99%;
-	box-shadow: 0px 0px 0px;
-	-webkit-transition: .5s -webkit-transform;
-	-moz-transition: .5s -moz-transform;
-	-ms-transition: .5s -ms-transform;
-	-o-transition: .5s -o-transform;
-	transition: .5s transform;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+	-webkit-transition: .5s -webkit-transform 0.1s;
+	-moz-transition: .5s -moz-transform 0.1s;
+	-ms-transition: .5s -ms-transform 0.1s;
+	-o-transition: .5s -o-transform 0.1s;
+	transition: .5s transform 0.1s;
 }
 
 ul.three-list li:hover img{
