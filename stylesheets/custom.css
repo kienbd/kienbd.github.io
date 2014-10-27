@@ -107,6 +107,7 @@ blockquote p {
 }
 
 #call-on-action .button {
+  position: relative;
   display: inline-block;
   cursor: pointer;
   background: #fafaf6;
@@ -121,6 +122,18 @@ blockquote p {
   -moz-transition: background .25s linear;
   -ms-transition: background .25s linear;
   transition: background .25s linear;
+}
+
+#call-on-action .button:before {
+  width: 86%;
+  bottom: 9px;
+  left: 7%;
+}
+
+#main-nav a:before {
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
 #call-on-action .button:hover {
