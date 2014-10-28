@@ -250,6 +250,7 @@ blockquote p {
     margin: 0 auto;
     bottom: 0px;
     top: 20px;
+    font-size: 10px;
   }
 }
 
