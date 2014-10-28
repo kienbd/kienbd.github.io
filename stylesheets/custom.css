@@ -66,6 +66,19 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+.about-contact {
+  width: 95%;
+}
+.about-contact h3,h2 {
+  margin: 15px 0px 15px 0px!important;
+}
+.about-contact p {
+  margin-bottom: 1.3em;
+}
+
+.about-contact p:last-child {
+  margin-bottom: 5px;
+}
 
 #header {
 
