@@ -12,6 +12,14 @@ only screen and ( min-resolution: 1.25dppx)
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
+article {
+  padding-top: 0px !important;
+}
+
+a.amz-undln.undln {
+  color: #960d20 !important;
+  border-bottom: none;
+}
 .personal-pic-holder {
   width: 25.9999%;
   display: inline-block
@@ -141,6 +149,15 @@ blockquote p {
   -moz-transition: background .25s linear;
   -ms-transition: background .25s linear;
   transition: background .25s linear;
+}
+
+#call-on-action .button .rarrow{
+  margin-left: 14px;
+  width: 13px;
+  height: 13px;
+  background:url('../arrow_right.png');
+  background-size:13px 13px;
+  display: inline-block
 }
 
 #call-on-action .button:before {

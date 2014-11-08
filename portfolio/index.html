@@ -104,7 +104,21 @@ $(document).ready(
 
   <div id="content" class="inner">
     <article class="page">
-    <div class="entry-content"><h1 style="margin:0"> Portfolio </h1>
+    <div class="entry-content"><div id="call-on-action" style="text-align: center;background: whitesmoke">
+  <p>
+    Building creative & effective websites
+  </p>
+  <h3>
+    <i>Specialising in</i> <b> Jquery, AngularJS , Ruby on Rails, Responsive Design, Animation,</b> <i> and </i> <b> Performance </b>
+  </h3>
+    <div class="call-on-action-mb">
+    <a href="/about/" class="button amz-undln">Get In Touch <div class="rarrow"> </div></a>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+<h1 style="margin:0"> Portfolio </h1>
 
 
 <p><section id="porfolio-index"></p>
@@ -162,6 +176,11 @@ $(document).ready(
 
 
 <p></section></p>
+
+<script>
+  $("a.amz-undln:contains('Portfolio')").addClass("undln");
+</script>
+
 </div>
 </article>
 
