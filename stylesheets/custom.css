@@ -117,9 +117,9 @@ blockquote p {
 #call-on-action p {
 	color: #3f413e;
 	font-family: "museo-1","museo-2", Georgia, Times, serif;
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 300;
-	line-height: 1.4em;
+	line-height: 1.1em;
 	padding: 1px;
   margin-bottom: 10px;
 }
